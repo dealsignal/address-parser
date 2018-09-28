@@ -4,6 +4,7 @@ Create an API to normalize given address into structured hash.
 
 ```
 # Given address as "780 Franklin Ave Crown Heights Brooklyn NYC NY 11216 USA",
+
 $ curl https://localhost/parse?780+Franklin+Ave+Crown+Heights+Brooklyn+NYC+NY+11216+USA
 
 {
@@ -34,7 +35,7 @@ $ curl https://localhost/parse?780+Franklin+Ave+Crown+Heights+Brooklyn+NYC+NY+11
     spawn-fcgi -p 3000 -n address-parser-cgi
     ```
     
-- Copy `nginx.conf` to `sites-enabled` directory of NGINX
+- Copy `nginx.conf` to `sites-enabled` directory of NGINX and reload
 
 - Visit `https://localhost/parse?780+Franklin+Ave+Crown+Heights+Brooklyn+NYC+NY+11216+USA` :boom:
 
