@@ -3,6 +3,7 @@
 Create an API to normalize given address into structured hash.
 
 ```
+# Given address as "780 Franklin Ave Crown Heights Brooklyn NYC NY 11216 USA",
 $ curl https://localhost/parse?780+Franklin+Ave+Crown+Heights+Brooklyn+NYC+NY+11216+USA
 
 {
