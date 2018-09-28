@@ -24,6 +24,11 @@ $ curl https://localhost/parse?780+Franklin+Ave+Crown+Heights+Brooklyn+NYC+NY+11
 
 - Build [libpostal](https://github.com/openvenues/libpostal#installation-maclinux)
 
+- Install `libfcgi-dev` and `spawn-fcgi`
+    ```
+    sudo apt-get install libfcgi-dev spawn-fcgi
+    ```
+
 - Compile `main.cpp` using `g++`
 
     ```
